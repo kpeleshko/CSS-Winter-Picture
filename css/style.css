@@ -1,0 +1,1094 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%; }
+  @media only screen and (max-width: 75em) {
+    html {
+      font-size: 50%; } }
+
+body {
+  position: relative;
+  background-image: linear-gradient(-177deg, #191B4B, #2B2C50, #263958 60%, #6270A9 70%);
+  height: 100vh;
+  width: 100vw; }
+
+#let_it_snow {
+  z-index: 100;
+  display: block;
+  position: relative;
+  height: 100vh;
+  width: 100vw; }
+
+.house {
+  position: absolute;
+  bottom: 5%;
+  left: 0%;
+  height: 25rem;
+  width: 40rem; }
+  .house__wall-front {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 20rem;
+    width: 25rem;
+    background-color: #eae0bd; }
+  .house__wall-side {
+    position: absolute;
+    bottom: 0;
+    left: 25rem;
+    height: 20rem;
+    width: 9rem;
+    background-color: #eae0bd;
+    transform: skewY(-40deg) translateY(-3.8rem); }
+  .house__roof-front {
+    position: absolute;
+    bottom: 20rem;
+    left: 0rem;
+    border-bottom: 10rem solid #9b8458;
+    border-right: 2rem solid transparent;
+    height: 0;
+    width: 25rem; }
+  .house__roof-side {
+    position: absolute;
+    bottom: 20rem;
+    left: 17rem;
+    height: 10rem;
+    width: 15rem;
+    background-color: #9b8458;
+    transform: skewX(130deg); }
+  .house__window1 {
+    position: absolute;
+    top: 6rem;
+    left: 10rem;
+    height: 6rem;
+    width: 8rem;
+    background-color: #11102c;
+    border: 0.5rem solid #9b8458; }
+  .house__window2 {
+    position: absolute;
+    top: 6rem;
+    left: 3rem;
+    height: 6rem;
+    width: 4rem;
+    background-color: #11102c;
+    border: 0.5rem solid #9b8458; }
+
+.stem {
+  position: absolute;
+  top: -120%;
+  left: 41%;
+  width: 3rem;
+  height: 6rem;
+  background: #11102c; }
+
+.tree {
+  position: absolute;
+  bottom: 10%;
+  left: 45%;
+  width: 30rem;
+  height: 50rem;
+  background: transparent; }
+  .tree-1 {
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    top: 4%;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid #11102c; }
+  .tree-2 {
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    top: 5%;
+    width: 0;
+    height: 0;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    border-bottom: 20px solid #11102c; }
+  .tree-3 {
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    top: 7%;
+    width: 0;
+    height: 0;
+    border-left: 30px solid transparent;
+    border-right: 30px solid transparent;
+    border-bottom: 30px solid #11102c; }
+  .tree-4 {
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    top: 10%;
+    width: 0;
+    height: 0;
+    border-left: 40px solid transparent;
+    border-right: 40px solid transparent;
+    border-bottom: 40px solid #11102c; }
+  .tree-5 {
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    top: 14%;
+    width: 0;
+    height: 0;
+    border-left: 50px solid transparent;
+    border-right: 50px solid transparent;
+    border-bottom: 50px solid #11102c; }
+  .tree-6 {
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    top: 18%;
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-right: 60px solid transparent;
+    border-bottom: 60px solid #11102c; }
+  .tree-7 {
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    top: 23%;
+    width: 0;
+    height: 0;
+    border-left: 70px solid transparent;
+    border-right: 70px solid transparent;
+    border-bottom: 70px solid #11102c; }
+  .tree-8 {
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    top: 30%;
+    width: 0;
+    height: 0;
+    border-left: 80px solid transparent;
+    border-right: 80px solid transparent;
+    border-bottom: 80px solid #11102c; }
+  .tree-9 {
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    top: 38%;
+    width: 0;
+    height: 0;
+    border-left: 10rem solid transparent;
+    border-right: 10rem solid transparent;
+    border-bottom: 10rem solid #11102c; }
+  .tree-10 {
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    top: 45%;
+    width: 0;
+    height: 0;
+    border-left: 11.5rem solid transparent;
+    border-right: 11.5rem solid transparent;
+    border-bottom: 11.5rem solid #11102c; }
+  .tree-11 {
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    top: 55%;
+    width: 0;
+    height: 0;
+    border-left: 13rem solid transparent;
+    border-right: 13rem solid transparent;
+    border-bottom: 13rem solid #11102c; }
+  .tree-12 {
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+    top: 65%;
+    width: 0;
+    height: 0;
+    border-left: 15rem solid transparent;
+    border-right: 15rem solid transparent;
+    border-bottom: 15rem solid #11102c; }
+
+.star {
+  z-index: 100;
+  position: absolute;
+  top: 2%;
+  left: 47%;
+  display: block;
+  color: #fafa84;
+  width: 0px;
+  height: 0px;
+  border-right: 1rem solid transparent;
+  border-bottom: 0.7rem solid #fafa84;
+  border-left: 1rem solid transparent;
+  transform: rotate(35deg);
+  animation: pulsate-star 1.4s ease-in-out infinite alternate-reverse; }
+  .star:before {
+    border-bottom: 0.8rem solid #fafa84;
+    border-left: .3rem solid transparent;
+    border-right: .3rem solid transparent;
+    position: absolute;
+    height: 0;
+    width: 0;
+    top: -.45rem;
+    left: -.65rem;
+    display: block;
+    content: '';
+    transform: rotate(-35deg); }
+  .star:after {
+    position: absolute;
+    display: block;
+    color: #fafa84;
+    top: .03rem;
+    left: -1.05rem;
+    width: 0;
+    height: 0;
+    border-right: 1rem solid transparent;
+    border-bottom: 0.7rem solid #fafa84;
+    border-left: 1rem solid transparent;
+    transform: rotate(-70deg);
+    content: ''; }
+
+@keyframes pulsate-star {
+  0% {
+    transform: scale(1);
+    opacity: .7; }
+  100% {
+    transform: scale(1.5);
+    opacity: 1; } }
+
+@keyframes change-1 {
+  0% {
+    background-color: #a4a4f7; }
+  24% {
+    background-color: #a4a4f7;
+    transform: scale(1); }
+  25% {
+    background-color: #e4c0c0;
+    transform: scale(1.5); }
+  49% {
+    background-color: #e4c0c0;
+    transform: scale(1); }
+  50% {
+    background-color: #e280dd; }
+  74% {
+    background-color: #e280dd; }
+  75% {
+    background-color: #f07279; }
+  99% {
+    background-color: #f07279; } }
+
+@keyframes change-2 {
+  0% {
+    background-color: #e4c0c0; }
+  24% {
+    background-color: #e4c0c0; }
+  25% {
+    background-color: #e280dd; }
+  49% {
+    background-color: #e280dd;
+    transform: scale(1); }
+  50% {
+    background-color: #f07279;
+    transform: scale(1.5); }
+  74% {
+    background-color: #f07279;
+    transform: scale(1); }
+  75% {
+    background-color: #a4a4f7; }
+  99% {
+    background-color: #a4a4f7; } }
+
+@keyframes change-3 {
+  0% {
+    background-color: #e280dd; }
+  24% {
+    background-color: #e280dd; }
+  25% {
+    background-color: #f07279; }
+  49% {
+    background-color: #f07279; }
+  50% {
+    background-color: #a4a4f7; }
+  74% {
+    background-color: #a4a4f7;
+    transform: scale(1); }
+  75% {
+    background-color: #e4c0c0;
+    transform: scale(1.5); }
+  99% {
+    background-color: #e4c0c0;
+    transform: scale(1); } }
+
+@keyframes change-4 {
+  0% {
+    background-color: #f07279;
+    transform: scale(1.5); }
+  24% {
+    background-color: #f07279;
+    transform: scale(1); }
+  25% {
+    background-color: #a4a4f7; }
+  49% {
+    background-color: #a4a4f7; }
+  50% {
+    background-color: #e4c0c0; }
+  74% {
+    background-color: #e4c0c0; }
+  75% {
+    background-color: #e280dd; }
+  99% {
+    background-color: #e280dd;
+    transform: scale(1); } }
+
+.light1 {
+  position: absolute;
+  top: 7%;
+  left: 50%;
+  transform: translateX(-75%);
+  height: 17%;
+  width: 27%; }
+  .light1-1 {
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 8%;
+    right: 6.4%;
+    border-radius: 50%; }
+    .light1-1:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light1-1:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light1-1:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light1-1:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light1-2 {
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 16%;
+    right: 12.8%;
+    border-radius: 50%; }
+    .light1-2:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light1-2:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light1-2:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light1-2:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light1-3 {
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 24%;
+    right: 19.2%;
+    border-radius: 50%; }
+    .light1-3:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light1-3:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light1-3:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light1-3:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light1-4 {
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 32%;
+    right: 25.6%;
+    border-radius: 50%; }
+    .light1-4:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light1-4:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light1-4:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light1-4:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light1-5 {
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 40%;
+    right: 32%;
+    border-radius: 50%; }
+    .light1-5:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light1-5:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light1-5:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light1-5:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light1-6 {
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 48%;
+    right: 38.4%;
+    border-radius: 50%; }
+    .light1-6:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light1-6:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light1-6:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light1-6:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light1-7 {
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 56%;
+    right: 44.8%;
+    border-radius: 50%; }
+    .light1-7:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light1-7:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light1-7:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light1-7:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light1-8 {
+    width: 0.4rem;
+    height: 0.4rem;
+    position: absolute;
+    top: 64%;
+    right: 51.2%;
+    border-radius: 50%; }
+    .light1-8:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light1-8:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light1-8:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light1-8:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+
+.light2 {
+  position: absolute;
+  top: 25%;
+  left: 50%;
+  transform: translateX(-62%);
+  height: 24%;
+  width: 40%; }
+  .light2-1 {
+    width: 0.55rem;
+    height: 0.55rem;
+    position: absolute;
+    top: 8.25%;
+    right: 7.7%;
+    border-radius: 50%; }
+    .light2-1:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light2-1:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light2-1:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light2-1:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light2-2 {
+    width: 0.55rem;
+    height: 0.55rem;
+    position: absolute;
+    top: 16.5%;
+    right: 15.4%;
+    border-radius: 50%; }
+    .light2-2:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light2-2:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light2-2:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light2-2:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light2-3 {
+    width: 0.55rem;
+    height: 0.55rem;
+    position: absolute;
+    top: 24.75%;
+    right: 23.1%;
+    border-radius: 50%; }
+    .light2-3:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light2-3:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light2-3:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light2-3:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light2-4 {
+    width: 0.55rem;
+    height: 0.55rem;
+    position: absolute;
+    top: 33%;
+    right: 30.8%;
+    border-radius: 50%; }
+    .light2-4:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light2-4:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light2-4:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light2-4:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light2-5 {
+    width: 0.55rem;
+    height: 0.55rem;
+    position: absolute;
+    top: 41.25%;
+    right: 38.5%;
+    border-radius: 50%; }
+    .light2-5:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light2-5:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light2-5:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light2-5:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light2-6 {
+    width: 0.55rem;
+    height: 0.55rem;
+    position: absolute;
+    top: 49.5%;
+    right: 46.2%;
+    border-radius: 50%; }
+    .light2-6:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light2-6:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light2-6:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light2-6:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light2-7 {
+    width: 0.55rem;
+    height: 0.55rem;
+    position: absolute;
+    top: 57.75%;
+    right: 53.9%;
+    border-radius: 50%; }
+    .light2-7:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light2-7:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light2-7:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light2-7:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light2-8 {
+    width: 0.55rem;
+    height: 0.55rem;
+    position: absolute;
+    top: 66%;
+    right: 61.6%;
+    border-radius: 50%; }
+    .light2-8:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light2-8:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light2-8:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light2-8:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light2-9 {
+    width: 0.55rem;
+    height: 0.55rem;
+    position: absolute;
+    top: 74.25%;
+    right: 69.3%;
+    border-radius: 50%; }
+    .light2-9:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light2-9:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light2-9:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light2-9:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light2-10 {
+    width: 0.55rem;
+    height: 0.55rem;
+    position: absolute;
+    top: 82.5%;
+    right: 77%;
+    border-radius: 50%; }
+    .light2-10:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light2-10:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light2-10:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light2-10:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+
+.light3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-55%);
+  height: 25%;
+  width: 50%; }
+  .light3-1 {
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 7.2%;
+    right: 7.8%;
+    border-radius: 50%; }
+    .light3-1:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light3-1:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light3-1:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light3-1:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light3-2 {
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 14.4%;
+    right: 15.6%;
+    border-radius: 50%; }
+    .light3-2:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light3-2:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light3-2:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light3-2:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light3-3 {
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 21.6%;
+    right: 23.4%;
+    border-radius: 50%; }
+    .light3-3:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light3-3:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light3-3:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light3-3:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light3-4 {
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 28.8%;
+    right: 31.2%;
+    border-radius: 50%; }
+    .light3-4:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light3-4:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light3-4:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light3-4:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light3-5 {
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 36%;
+    right: 39%;
+    border-radius: 50%; }
+    .light3-5:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light3-5:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light3-5:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light3-5:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light3-6 {
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 43.2%;
+    right: 46.8%;
+    border-radius: 50%; }
+    .light3-6:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light3-6:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light3-6:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light3-6:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light3-7 {
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 50.4%;
+    right: 54.6%;
+    border-radius: 50%; }
+    .light3-7:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light3-7:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light3-7:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light3-7:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light3-8 {
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 57.6%;
+    right: 62.4%;
+    border-radius: 50%; }
+    .light3-8:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light3-8:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light3-8:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light3-8:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light3-9 {
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 64.8%;
+    right: 70.2%;
+    border-radius: 50%; }
+    .light3-9:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light3-9:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light3-9:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light3-9:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light3-10 {
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 72%;
+    right: 78%;
+    border-radius: 50%; }
+    .light3-10:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light3-10:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light3-10:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light3-10:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light3-11 {
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 79.2%;
+    right: 85.8%;
+    border-radius: 50%; }
+    .light3-11:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light3-11:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light3-11:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light3-11:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light3-12 {
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 86.4%;
+    right: 93.6%;
+    border-radius: 50%; }
+    .light3-12:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light3-12:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light3-12:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light3-12:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light3-13 {
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 93.6%;
+    right: 101.4%;
+    border-radius: 50%; }
+    .light3-13:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light3-13:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light3-13:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light3-13:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light3-14 {
+    width: 0.6rem;
+    height: 0.6rem;
+    position: absolute;
+    top: 100.8%;
+    right: 109.2%;
+    border-radius: 50%; }
+    .light3-14:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light3-14:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light3-14:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light3-14:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+
+.light4 {
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 25%;
+  width: 70%; }
+  .light4-1 {
+    width: 0.67rem;
+    height: 0.67rem;
+    position: absolute;
+    top: 6.7%;
+    right: 6.7%;
+    border-radius: 50%; }
+    .light4-1:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light4-1:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light4-1:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light4-1:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light4-2 {
+    width: 0.67rem;
+    height: 0.67rem;
+    position: absolute;
+    top: 13.4%;
+    right: 13.4%;
+    border-radius: 50%; }
+    .light4-2:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light4-2:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light4-2:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light4-2:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light4-3 {
+    width: 0.67rem;
+    height: 0.67rem;
+    position: absolute;
+    top: 20.1%;
+    right: 20.1%;
+    border-radius: 50%; }
+    .light4-3:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light4-3:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light4-3:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light4-3:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light4-4 {
+    width: 0.67rem;
+    height: 0.67rem;
+    position: absolute;
+    top: 26.8%;
+    right: 26.8%;
+    border-radius: 50%; }
+    .light4-4:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light4-4:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light4-4:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light4-4:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light4-5 {
+    width: 0.67rem;
+    height: 0.67rem;
+    position: absolute;
+    top: 33.5%;
+    right: 33.5%;
+    border-radius: 50%; }
+    .light4-5:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light4-5:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light4-5:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light4-5:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light4-6 {
+    width: 0.67rem;
+    height: 0.67rem;
+    position: absolute;
+    top: 40.2%;
+    right: 40.2%;
+    border-radius: 50%; }
+    .light4-6:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light4-6:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light4-6:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light4-6:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light4-7 {
+    width: 0.67rem;
+    height: 0.67rem;
+    position: absolute;
+    top: 46.9%;
+    right: 46.9%;
+    border-radius: 50%; }
+    .light4-7:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light4-7:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light4-7:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light4-7:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light4-8 {
+    width: 0.67rem;
+    height: 0.67rem;
+    position: absolute;
+    top: 53.6%;
+    right: 53.6%;
+    border-radius: 50%; }
+    .light4-8:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light4-8:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light4-8:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light4-8:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light4-9 {
+    width: 0.67rem;
+    height: 0.67rem;
+    position: absolute;
+    top: 60.3%;
+    right: 60.3%;
+    border-radius: 50%; }
+    .light4-9:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light4-9:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light4-9:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light4-9:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light4-10 {
+    width: 0.67rem;
+    height: 0.67rem;
+    position: absolute;
+    top: 67%;
+    right: 67%;
+    border-radius: 50%; }
+    .light4-10:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light4-10:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light4-10:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light4-10:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light4-11 {
+    width: 0.67rem;
+    height: 0.67rem;
+    position: absolute;
+    top: 73.7%;
+    right: 73.7%;
+    border-radius: 50%; }
+    .light4-11:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light4-11:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light4-11:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light4-11:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light4-12 {
+    width: 0.67rem;
+    height: 0.67rem;
+    position: absolute;
+    top: 80.4%;
+    right: 80.4%;
+    border-radius: 50%; }
+    .light4-12:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light4-12:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light4-12:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light4-12:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light4-13 {
+    width: 0.67rem;
+    height: 0.67rem;
+    position: absolute;
+    top: 87.1%;
+    right: 87.1%;
+    border-radius: 50%; }
+    .light4-13:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light4-13:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light4-13:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light4-13:nth-child(4n+4) {
+      animation: change-1 4s infinite; }
+  .light4-14 {
+    width: 0.67rem;
+    height: 0.67rem;
+    position: absolute;
+    top: 93.8%;
+    right: 93.8%;
+    border-radius: 50%; }
+    .light4-14:nth-child(4n+1) {
+      animation: change-4 4s infinite; }
+    .light4-14:nth-child(4n+2) {
+      animation: change-3 4s infinite; }
+    .light4-14:nth-child(4n+3) {
+      animation: change-2 4s infinite; }
+    .light4-14:nth-child(4n+4) {
+      animation: change-1 4s infinite; }

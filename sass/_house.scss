@@ -1,0 +1,71 @@
+.house {
+    position: absolute;
+    bottom: 5%;
+    left: 0%;
+    height: 25rem;
+    width: 40rem;
+
+
+&__wall-front {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    height: 20rem;
+    width: 25rem;
+    background-color: $house__wall;
+}
+
+&__wall-side {
+    position: absolute;
+    bottom: 0;
+    left: 25rem;
+    height: 20rem;
+    width: 9rem;
+    background-color: $house__wall;
+    transform: skewY(-40deg) translateY(-3.8rem);
+}
+
+
+&__roof-front {
+    position: absolute;
+    bottom: 20rem;
+    left: 0rem;
+    border-bottom: 10rem solid $house__roof;
+    border-right: 2rem solid transparent;
+    height: 0;
+    width: 25rem;
+}
+
+&__roof-side {
+    position: absolute;
+    bottom: 20rem;
+    left: 17rem;
+    height: 10rem;
+    width: 15rem;
+    background-color: $house__roof;
+    transform: skewX(130deg);
+}
+
+&__window1 {
+    position: absolute;
+    top: 6rem;
+    left: 10rem;
+    height: 6rem;
+    width: 8rem;
+    background-color: $tree-color;
+    border: .5rem solid $house__roof;
+}
+
+&__window2 {
+    position: absolute;
+    top: 6rem;
+    left: 3rem;
+    height: 6rem;
+    width: 4rem;
+    background-color: $tree-color;
+    border: .5rem solid $house__roof;
+}
+}
+
+
+    

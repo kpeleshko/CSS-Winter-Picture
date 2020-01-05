@@ -1,0 +1,357 @@
+.stem {
+    position: absolute;
+    top: -120%;
+    left: 41%;
+    width: 3rem;
+    height: 6rem;
+    background: $tree-color;
+}
+
+@mixin tree {
+    position: absolute;
+    left: 50% !important;
+    transform: translateX(-50%);
+    -moz-border-radius: 50px;
+    -webkit-border-radius: 50px;
+}
+
+.tree {
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+    width: 30rem;
+    height: 50rem;
+    background: transparent;
+
+    &-1 {
+        @include tree;
+        top: 4%;
+        width:0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid $tree-color;
+    }
+
+    &-2 {
+        @include tree;
+        top: 5%;
+        width:0;
+        height: 0;
+        border-left: 20px solid transparent;
+        border-right: 20px solid transparent;
+        border-bottom: 20px solid $tree-color;
+    }
+
+    &-3 {
+        @include tree;
+        top: 7%;
+        width:0;
+        height: 0;
+        border-left: 30px solid transparent;
+        border-right: 30px solid transparent;
+        border-bottom: 30px solid $tree-color;
+    }
+
+    &-4 {
+        @include tree;
+        top: 10%;
+        width:0;
+        height: 0;
+        border-left: 40px solid transparent;
+        border-right: 40px solid transparent;
+        border-bottom: 40px solid $tree-color;
+    }
+
+    &-5 {
+        @include tree;
+        top: 14%;
+        width:0;
+        height: 0;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-bottom: 50px solid $tree-color;
+    }
+
+    &-6 {
+        @include tree;
+        top: 18%;
+        width:0;
+        height: 0;
+        border-left: 60px solid transparent;
+        border-right: 60px solid transparent;
+        border-bottom: 60px solid $tree-color;
+    }
+
+    &-7 {
+        @include tree;
+        top: 23%;
+        width:0;
+        height: 0;
+        border-left: 70px solid transparent;
+        border-right: 70px solid transparent;
+        border-bottom: 70px solid $tree-color;
+    }
+
+    &-8 {
+        @include tree;
+        top: 30%;
+        width:0;
+        height: 0;
+        border-left: 80px solid transparent;
+        border-right: 80px solid transparent;
+        border-bottom: 80px solid $tree-color; 
+    }
+
+    &-9 {
+        @include tree;
+        top: 38%;
+        width:0;
+        height: 0;
+        border-left: 10rem solid transparent;
+        border-right: 10rem solid transparent;
+        border-bottom: 10rem solid $tree-color;
+    }
+
+    &-10 {
+        @include tree;
+        top: 45%;
+        width:0;
+        height: 0;
+        border-left: 11.5rem solid transparent;
+        border-right: 11.5rem solid transparent;
+        border-bottom: 11.5rem solid $tree-color;
+    }
+
+    &-11 {
+        @include tree;
+        top: 55%;
+        width:0;
+        height: 0;
+        border-left: 13rem solid transparent;
+        border-right: 13rem solid transparent;
+        border-bottom: 13rem solid $tree-color;
+    }
+
+    &-12 {
+        @include tree;
+        top: 65%;
+        width:0;
+        height: 0;
+        border-left: 15rem solid transparent;
+        border-right: 15rem solid transparent;
+        border-bottom: 15rem solid $tree-color; 
+    }
+}
+
+
+.star {
+    z-index: 100;
+    position: absolute;
+    top: 2%;
+    left: 47%;
+    display: block;
+    color: $star;
+    width: 0px;
+    height: 0px;
+    border-right: 1rem solid transparent;
+    border-bottom: .7rem solid $star;
+    border-left: 1rem solid transparent;
+    transform: rotate(35deg);
+    animation: pulsate-star 1.4s ease-in-out infinite alternate-reverse;
+
+    &:before {
+        border-bottom: .8rem solid $star;
+        border-left: .3rem solid transparent;
+        border-right: .3rem solid transparent;
+        position: absolute;
+        height: 0;
+        width: 0;
+        top: -.45rem;
+        left: -.65rem;
+        display: block;
+        content: '';
+        transform: rotate(-35deg);
+      }
+
+      &:after {
+        position: absolute;
+        display: block;
+        color: $star;
+        top: .03rem;
+        left: -1.05rem;
+        width: 0;
+        height: 0;
+        border-right: 1rem solid transparent;
+        border-bottom: .7rem solid $star;
+        border-left: 1rem solid transparent;
+        transform: rotate(-70deg);
+        content: '';
+      }
+  }
+
+  @keyframes pulsate-star {
+    0% {
+      transform: scale(1);
+      opacity: .7;
+    }
+    100% {
+      transform: scale(1.5);
+      opacity: 1;
+    }
+  }
+
+  @keyframes change-1 {
+      0% { background-color: $light-1;}
+      24% { background-color: $light-1; transform: scale(1);}
+      25% { background-color: $light-2; transform: scale(1.5);}
+      49% { background-color: $light-2; transform: scale(1);}
+      50% { background-color: $light-3;}
+      74% { background-color: $light-3;}
+      75% { background-color: $light-4;}
+      99% { background-color: $light-4;}
+  }
+
+  @keyframes change-2 {
+    0% { background-color: $light-2;}
+    24% { background-color: $light-2;}
+    25% { background-color: $light-3;}
+    49% { background-color: $light-3; transform: scale(1);}
+    50% { background-color: $light-4; transform: scale(1.5);}
+    74% { background-color: $light-4; transform: scale(1);}
+    75% { background-color: $light-1;}
+    99% { background-color: $light-1;}
+}
+
+@keyframes change-3 {
+    0% { background-color: $light-3;}
+      24% { background-color: $light-3;}
+      25% { background-color: $light-4;}
+      49% { background-color: $light-4;}
+      50% { background-color: $light-1;}
+      74% { background-color: $light-1; transform: scale(1);}
+      75% { background-color: $light-2; transform: scale(1.5);}
+      99% { background-color: $light-2; transform: scale(1);}
+}
+
+@keyframes change-4 {
+    0% { background-color: $light-4; transform: scale(1.5);}
+    24% { background-color: $light-4; transform: scale(1);}
+    25% { background-color: $light-1;}
+    49% { background-color: $light-1;}
+    50% { background-color: $light-2;}
+    74% { background-color: $light-2;}
+    75% { background-color: $light-3;}
+    99% { background-color: $light-3; transform: scale(1);}
+}
+
+@mixin light($number, $width, $distanseY, $distanseX) {
+    width: $width*1rem;
+    height: $width*1rem;
+    position: absolute;
+    top: $width*$number*$distanseY*1%;
+    right: $width*$number*$distanseX*1%;
+    border-radius: 50%;
+
+    &:nth-child(4n+1) {
+        animation: change-4 4s infinite;
+    }
+    &:nth-child(4n+2) {
+        animation: change-3 4s infinite;
+    }
+    &:nth-child(4n+3) {
+        animation: change-2 4s infinite;
+    }
+    &:nth-child(4n+4) {
+        animation: change-1 4s infinite;
+    }
+
+}
+
+.light1 {
+    position: absolute;
+    top: 7%;
+    left: 50%;
+    transform: translateX(-75%);
+    height: 17%;
+    width: 27%;
+
+    &-1 { @include light(1, .4, 20, 16);}
+    &-2 { @include light(2, .4, 20, 16);}
+    &-3 { @include light(3, .4, 20, 16);}
+    &-4 { @include light(4, .4, 20, 16);}
+    &-5 { @include light(5, .4, 20, 16);}
+    &-6 { @include light(6, .4, 20, 16);}
+    &-7 { @include light(7, .4, 20, 16);}
+    &-8 { @include light(8, .4, 20, 16);}
+   
+}
+
+
+.light2 {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translateX(-62%);
+    height: 24%;
+    width: 40%;
+
+    &-1 { @include light(1, .55, 15, 14);}
+    &-2 { @include light(2, .55, 15, 14);}
+    &-3 { @include light(3, .55, 15, 14);}
+    &-4 { @include light(4, .55, 15, 14);}
+    &-5 { @include light(5, .55, 15, 14);}
+    &-6 { @include light(6, .55, 15, 14);}
+    &-7 { @include light(7, .55, 15, 14);}
+    &-8 { @include light(8, .55, 15, 14);}
+    &-9 { @include light(9, .55, 15, 14);}
+    &-10 { @include light(10, .55, 15, 14);}
+}
+
+.light3 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-55%);
+    height: 25%;
+    width: 50%;
+
+    &-1 { @include light(1, .6, 12, 13);}
+    &-2 { @include light(2, .6, 12, 13);}
+    &-3 { @include light(3, .6, 12, 13);}
+    &-4 { @include light(4, .6, 12, 13);}
+    &-5 { @include light(5, .6, 12, 13);}
+    &-6 { @include light(6, .6, 12, 13);}
+    &-7 { @include light(7, .6, 12, 13);}
+    &-8 { @include light(8, .6, 12, 13);}
+    &-9 { @include light(9, .6, 12, 13);}
+    &-10 { @include light(10, .6, 12, 13);}
+    &-11 { @include light(11, .6, 12, 13);}
+    &-12 { @include light(12, .6, 12, 13);}
+    &-13 { @include light(13, .6, 12, 13);}
+    &-14 { @include light(14, .6, 12, 13);}
+}
+
+.light4 {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translateX(-50%);
+    height: 25%;
+    width: 70%;
+
+    &-1 { @include light(1, .67, 10, 10);}
+    &-2 { @include light(2, .67, 10, 10);}
+    &-3 { @include light(3, .67, 10, 10);}
+    &-4 { @include light(4, .67, 10, 10);}
+    &-5 { @include light(5, .67, 10, 10);}
+    &-6 { @include light(6, .67, 10, 10);}
+    &-7 { @include light(7, .67, 10, 10);}
+    &-8 { @include light(8, .67, 10, 10);}
+    &-9 { @include light(9, .67, 10, 10);}
+    &-10 { @include light(10, .67, 10, 10);}
+    &-11 { @include light(11, .67, 10, 10);}
+    &-12 { @include light(12, .67, 10, 10);}
+    &-13 { @include light(13, .67, 10, 10);}
+    &-14 { @include light(14, .67, 10, 10);}
+}
